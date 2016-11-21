@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/hotel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.HotelActivity">
+
+        <TextView
+            android:id="@+id/hotelView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView2"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView3"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView4"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView5"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView6"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView7"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView8"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView9"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView10"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView11"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/ghotelView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView12"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView13"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView14"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView15"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView16"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView17"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView18"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView19"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelVie20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView20"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView21"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView22"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView23"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView24"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView25"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView26"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView27"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView28"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView29"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView30"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView31"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView32"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView33"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView34"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView35"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView36"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView37"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView38"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView39"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView40"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView41"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView42"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView43"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView44"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView45"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView46"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView47"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView48"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView4̣̣9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView49"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView50"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView51"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView52"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView53"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView54"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView55"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView56"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView57"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView58"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView59"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/hotelView60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hotelView60"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</ScrollView>

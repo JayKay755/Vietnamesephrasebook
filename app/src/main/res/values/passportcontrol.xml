@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="passportcontrolView">Вот мой...</string>
+    <string name="passportcontrolView2">~ паспорт - hộ chiếu của tôi đây - хо тиеу куа той дэй</string>
+    <string name="passportcontrolView3">~ дипломатический - hộ chiếu ngoại giao	 - хо тиеу нгоай зяао</string>
+    <string name="passportcontrolView4">Вот моя... виза - Thị thực của tôi đây - тхи тхык куа той дэй</string>
+    <string name="passportcontrolView5">~ въездная - thị thực nhập cảnh	 - тхи тхык няп кань</string>
+    <string name="passportcontrolView6">~ выездная - xuất cảnh - суат кань</string>
+    <string name="passportcontrolView7">~ транзитная - qúa cảnh - куа кань</string>
+    <string name="passportcontrolView8">Вот моя декларация - Tờ khai hải quan của tôi đây - то хай хай куан куа той дэй</string>
+    <string name="passportcontrolView9">Со мной едет... - Cùng với tôi đi... - кунг вой той ди</string>
+    <string name="passportcontrolView10">~ жена - vợ	 - во</string>
+    <string name="passportcontrolView11">~ дочь - con gái - кон гай</string>
+    <string name="passportcontrolView12">~ сын - con trai - кон чай</string>
+    <string name="passportcontrolView13">Я хотел бы продлить визу. - Tôi muốn  gia hạn thị thực. - той муон зя хан тхи тхык</string>
+    <string name="passportcontrolView14">Как проехать в посольство? - Đại sứ quán của ở đâu? - дай су куан куа о дау?</string>
+    <string name="passportcontrolView15">Где таможенный контроль? - Kiểm tra hải quan ở đâu? - кием ча хай куан о дау?</string>
+    <string name="passportcontrolView16">Это мои вещи. - Đây là hành lí của tôi. - дэй ла хань ли куа той</string>
+</resources>

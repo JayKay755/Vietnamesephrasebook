@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "174999137052",
+    "firebase_url": "https://vietnamese-phrasebook-b269b.firebaseio.com",
+    "project_id": "vietnamese-phrasebook-b269b",
+    "storage_bucket": "vietnamese-phrasebook-b269b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174999137052:android:f59f2bed76f2eea0",
+        "android_client_info": {
+          "package_name": "com.jaydevelopment.popkovanton.vietnamesephrasebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174999137052-g4bpj1d92g6d72gnure6380ccva6f5qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaydevelopment.popkovanton.vietnamesephrasebook",
+            "certificate_hash": "A236AA4C3918ED2009D5EA1974D4B5D903FBD9A5"
+          }
+        },
+        {
+          "client_id": "174999137052-q2qtdj62r1lg68n40nsejv6o33gc189n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ILIrLro_m6H4dqKMW7yjwY6xX9RwfL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

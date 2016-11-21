@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/restaurant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.RestaurantActivity">
+    <TextView
+        android:id="@+id/restaurantView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView2"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView3"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView4"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView5"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView6"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView7"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView8"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView9"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView10"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView11"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/grestaurantView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView12"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView13"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView14"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/restaurantView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView15"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView16"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView17"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView18"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView19"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantVie20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView20"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView21"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView22"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView23"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView24"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView25"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView26"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView27"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView28"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView29"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView30"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView31"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView32"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView33"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView34"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView35"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView36"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView37"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView38"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView39"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/restaurantView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/restaurantView40"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/railway"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.RailwayActivity">
+
+        <TextView
+            android:id="@+id/railwayView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/railwayView"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/railwayView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/railwayView2"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/railwayView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/railwayView3"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/railwayView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/railwayView4"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/railwayView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/railwayView5"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/railwayView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/railwayView6"
+            android:textSize="19dp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</ScrollView>

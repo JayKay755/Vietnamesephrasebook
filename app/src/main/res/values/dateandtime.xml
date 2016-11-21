@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dateandtimeView">Который час? - May gio ro`i nhi? - мау гио ро\'и нхи?</string>
+    <string name="dateandtimeView2">День - Ngay - нгау</string>
+    <string name="dateandtimeView3">Неделя - Tua`n - туа\'н</string>
+    <string name="dateandtimeView4">понедельник - Thu Hai - ту хай</string>
+    <string name="dateandtimeView5">вторник - Thu Ba - ту ба</string>
+    <string name="dateandtimeView6">среда - Thu Tu - ту ту</string>
+    <string name="dateandtimeView7">четверг - Thu Nam - ту нам</string>
+    <string name="dateandtimeView8">пятница - Thu Sau - ту сау</string>
+    <string name="dateandtimeView9">суббота - Thu Bay - ту бай</string>
+    <string name="dateandtimeView10">воскресенье - Chu Nhat - чу нхат</string>
+    <string name="dateandtimeView11">Весна - Mua huan - муа хуан</string>
+    <string name="dateandtimeView12">Лето - Mua He (Ha) - муа хе (ха)</string>
+    <string name="dateandtimeView13">Осень - Mua Thu - муа ту</string>
+    <string name="dateandtimeView14">Зима - Mua-Dong - муа-донг</string>
+</resources>

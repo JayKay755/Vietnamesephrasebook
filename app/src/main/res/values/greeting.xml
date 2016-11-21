@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greetingView"><b>Здравствуйте!</b>\n<i>Xin chào!</i>\n<u>син тяо!</u></string>
+    <string name="greetingView2">Здравствуйте, уважаемый (уважаемая)! - Chào quý ông (bà)! - тяо куи ом (ба)!</string>
+    <string name="greetingView3">Здравствуйте, господа! - Chào các ông! - тяо как ом!</string>
+    <string name="greetingView4">Уважаемые господин и госпожа! - Thưa quý ông bà - тхыа куи ом ба!</string>
+    <string name="greetingView5">Дорогой Хунг! - Thưa anh Hùng! - тхыа ань хунг</string>
+    <string name="greetingView6">Дорогие друзья! - Các bạn thân mến…	 - как бан тхан мэйн</string>
+    <string name="greetingView7">До свидания! - Hẹn gạp lại nhé - хен гап лай нья</string>
+    <string name="greetingView8">До встречи! - Tạm biệt	 - там биет</string>
+    <string name="greetingView9">Когда мы встретимся? - Bao giờ chúng ta gặp nhau? - бао зет юнг та гап няу?</string>
+    <string name="greetingView10">Где мы встретимся? - Chúng ta gặp nhau ở đâu? - тюнг та гап няу о дау?</string>
+    <string name="greetingView11">Передайте привет... - Xin gửi lời thăm (̣chị, anh)... - син гый лой тхам (ти, ань)...</string>
+    <string name="greetingView12">Желаю вам успехов! - Xin chúc anh đạt nhiều thành tích mới! - Син тюк ань дат ниеу тхань тить мой!</string>
+    <string name="greetingView13">Доброе утро/день/вечер - hin chao - хин чао</string>
+    <string name="greetingView14">Спокойной ночи - Chuc ngu ngon - чюц нгу нгон</string>
+    <string name="greetingView15">Пока - Ddi nhe - дди нхэ</string>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/passportcontrol"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.PassportcontrolActivity">
+    <TextView
+        android:id="@+id/passportcontrolView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView2"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView3"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView4"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView5"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView6"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView7"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView8"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView9"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView10"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView11"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/gpassportcontrolView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView12"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView13"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView14"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/passportcontrolView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView15"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/passportcontrolView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passportcontrolView16"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+</LinearLayout>
+</ScrollView>

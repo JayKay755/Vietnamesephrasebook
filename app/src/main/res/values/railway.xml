@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="railwayView">Вокзал - Ga he lua - га хе луа</string>
+    <string name="railwayView2">Отправление - Di, kho hanh - ди, хо ханх</string>
+    <string name="railwayView3">Прибытие - Den - Дэн</string>
+    <string name="railwayView4">Поезд - he lua - хе луа</string>
+    <string name="railwayView5">Сколько стоит билет? - Gia ve la bao nhieu - гиа ве ла бао нхиеу?</string>
+    <string name="railwayView6">Паспорт - Ho Chieu - хо чиеу</string>
+</resources>

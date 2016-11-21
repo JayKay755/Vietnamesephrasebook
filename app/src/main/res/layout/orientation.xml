@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/orientation"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.OrientationActivity">
+    <TextView
+        android:id="@+id/orientationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView2"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView3"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView4"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView5"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView6"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView7"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView8"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView9"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView10"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView11"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/gorientationView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView12"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView13"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView14"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/orientationView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView15"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/orientationView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView16"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/orientationView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView17"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/orientationView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView18"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/orientationView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView19"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/orientationVie20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView20"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/orientationView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/orientationView21"
+        android:textSize="19dp"
+        android:textStyle="normal|bold" />
+</LinearLayout>
+</ScrollView>

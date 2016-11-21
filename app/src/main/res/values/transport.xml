@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transportView">Автобус - he bus - хе бас</string>
+    <string name="transportView2">Машина - xe - хэ</string>
+    <string name="transportView3">Мотоцикл - xe gắn máy - хэ ган май</string>
+    <string name="transportView4">Поезд - he lua - хе луа</string>
+    <string name="transportView5">Аэропорт - san bay - сан бай</string>
+    <string name="transportView6">Вокзал - ga he lua - га хе луа</string>
+    <string name="transportView7">Отправление - di, kho hanh - ди, хо ханх</string>
+    <string name="transportView8">Прибытие - den - дэн</string>
+    <string name="transportView9">Такси - taxi - такси</string>
+    <string name="transportView10">Метро - Tau ddien nga`m - тау ддиен нга\'м</string>
+    <string name="transportView11">Автовокзал - Ben he bus - бен хе бас</string>
+    <string name="transportView12">Билет - Ve - Ве</string>
+    <string name="transportView13">Сколько стоит билет? - Gia ve la bao nhieu - гиа ве ла бао нхиеу?</string>
+    <string name="transportView14">Отправление - Di, kho hanh - ди, хо ханх</string>
+    <string name="transportView15">Прибытие - Den - Дэн</string>
+</resources>

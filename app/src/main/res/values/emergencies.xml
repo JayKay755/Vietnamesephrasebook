@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emergenciesView">Пожарная служба - sở cứu hỏa - со суу хоа</string>
+    <string name="emergenciesView2">Полиция - do`n canh sat - до\'н цанх сат</string>
+    <string name="emergenciesView3">Скорая помощь - xe cứu thương - хэ суу хуонг</string>
+    <string name="emergenciesView4">Больница - benh vien - бенх виен</string>
+    <string name="emergenciesView5">Больно - đau đớn - дау дон</string>
+    <string name="emergenciesView6">Аптека - hieu thuoc - хиеу туоц</string>
+    <string name="emergenciesView7">Доктор - bác sĩ - бас си</string>
+</resources>

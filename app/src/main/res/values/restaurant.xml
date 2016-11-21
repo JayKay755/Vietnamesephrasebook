@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="restaurantView">Завтрак - A(n sang - а н санг</string>
+    <string name="restaurantView2">Обед - A(n trua - а н труа</string>
+    <string name="restaurantView3">Ужин - A(n toi - а н той</string>
+    <string name="restaurantView4">Хлеб - Banh mi - банх ми</string>
+    <string name="restaurantView5">Напиток - Do` uong - до\' юнг</string>
+    <string name="restaurantView6">Кафе - Cafe - кафе</string>
+    <string name="restaurantView7">Сок - Nuoc trai cay - нуоц трай цау</string>
+    <string name="restaurantView8">Вода - Nuoc - Нуоц</string>
+    <string name="restaurantView9">Пиво - Bia - Биа</string>
+    <string name="restaurantView10">Вино - Rượu - руоу</string>
+    <string name="restaurantView11">Мясо - Thịt - Тит</string>
+    <string name="restaurantView12">Овощи - Rau - рау</string>
+    <string name="restaurantView13">Фрукты - Trái cây - трай цау</string>
+    <string name="restaurantView14">Мороженое - Kem - Кем</string>
+    <string name="restaurantView15">Я хочу - Tôi muốn - той муон\'</string>
+    <string name="restaurantView16">Говядина - thịt bò - тхьит бо</string>
+    <string name="restaurantView17">Свинина - Thịt heo - тхьит хейо</string>
+    <string name="restaurantView18">Курица - Thịt gà́ - тхьит га</string>
+    <string name="restaurantView19">Рыба - cá - каа</string>
+    <string name="restaurantView20">Орехи - quả hạch - куа хек</string>
+    <string name="restaurantView21">Ложка - muỗng - муон</string>
+    <string name="restaurantView22">Нож - dao - зао</string>
+    <string name="restaurantView23">Вилка - nĩa - ньиа</string>
+    <string name="restaurantView24">Где ближайший бар? - Quán rượu gần nhất ở đâu? - куан зиу ган нят о дау?</string>
+    <string name="restaurantView25">Здесь свободно? - Ở đây có ai ngồi không? - о дэй ко аи нгой хонг?</string>
+    <string name="restaurantView26">Что вы будете пить? - Anh có muốn uống gì không? - ань ко муон уонг зи хонг?</string>
+    <string name="restaurantView27">Будьте любезны... - Làm ơn cho tôi… - лам он тё той...</string>
+    <string name="restaurantView28">чашка кофе - một cốc cà phê - мот кок ка фе</string>
+    <string name="restaurantView29">стакан сока - một cốc sinh tô - мот кок синь то</string>
+    <string name="restaurantView30">кружку пива - một cốc bia - мот ли биа</string>
+    <string name="restaurantView31">Приятного аппетита! - Chúc ăn ngon miệng - тюк ан нгон миенг</string>
+    <string name="restaurantView32">Официант! - Em ơi - эм ой</string>
+    <string name="restaurantView33">Принесите, пожалуйстa... - Làm ơn cho tôi - лам он тё той</string>
+    <string name="restaurantView34">~ одну бутылку - một chai - мот тяй</string>
+    <string name="restaurantView35">~ одну порцию - một suất - мот суат</string>
+    <string name="restaurantView36">~ один стакан - một côc - мот кок</string>
+    <string name="restaurantView37">~ одну чашку - một tách	 - мот тать</string>
+    <string name="restaurantView38">Спасибо - Cám ơn - кам он</string>
+    <string name="restaurantView39">Очень вкусно! - Rất ngon! - зат нгон</string>
+    <string name="restaurantView40">Счет ! - Tính tiền nhe! - Тинь тиен ня</string>
+</resources>

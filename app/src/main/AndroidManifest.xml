@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jaydevelopment.popkovanton.vietnamesephrasebook">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vietnam_glossy_square_icon96"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.GreetingActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.StandartphraseActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.RailwayActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.PassportcontrolActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.OrientationActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.TransportActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.HotelActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.RestaurantActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.EmergenciesActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.DateandtimeActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.PurchasesActivity" />
+        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.NumberActivity"></activity>
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+
+</manifest>

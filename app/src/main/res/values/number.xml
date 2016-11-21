@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="numberView">0 - khong - хонг</string>
+    <string name="numberView2">1 - mot - Мот</string>
+    <string name="numberView3">2 - hai - Хай</string>
+    <string name="numberView4">3 - Ba - ба</string>
+    <string name="numberView5">4 - bon - Бон</string>
+    <string name="numberView6">5 - na - На</string>
+    <string name="numberView7">6 - sau - ай</string>
+    <string name="numberView8">7 - bay - Бай</string>
+    <string name="numberView9">8 - tam - Там</string>
+    <string name="numberView10">9 - chin - Чин</string>
+    <string name="numberView11">10 - muoi - муой</string>
+    <string name="numberView12">11 - muoi mot - Муой мот</string>
+    <string name="numberView13">20 - hai muoi - Хай муой</string>
+    <string name="numberView14">21 - muoi - муой</string>
+    <string name="numberView15">30 - ba muoi - Ба муой</string>
+    <string name="numberView16">40 - bon muoi - Бон муой</string>
+    <string name="numberView17">50 - na(m muoi - На муой</string>
+    <string name="numberView18">100 - mot tram - мот трам</string>
+    <string name="numberView19">1 000 - mot ngan - мот нган</string>
+</resources>
