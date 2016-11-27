@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="orientationView">Как пройти:</string>
-    <string name="orientationView2">Налево - Trai - Трай</string>
-    <string name="orientationView3">Направо - Phai - Фай</string>
-    <string name="orientationView4">Прямо - Thang - Танг</string>
-    <string name="orientationView5">Вверх - Len - Лен</string>
-    <string name="orientationView6">Вниз - Huong - Хуонг</string>
-    <string name="orientationView7">Далеко - ha - Ха</string>
-    <string name="orientationView8">Близко - Ga`n - га\'н</string>
-    <string name="orientationView9">Карта - Ban ddo` - бан ддо\'</string>
-    <string name="orientationView10">Почта - Buu-dien - буу-диен</string>
-    <string name="orientationView11">Музей - Bao tang - бао танг</string>
-    <string name="orientationView12">Банк - Ngan hang, nha bang - нган ханг, нха банг</string>
-    <string name="orientationView13">Милиция - до\'н цанх сат - до\'н цанх сат</string>
-    <string name="orientationView14">Больница - Benh vien, nha thuong - бенх виен, нха туонг</string>
-    <string name="orientationView15">Аптека - Hieu thuoc - хиеу туоц</string>
-    <string name="orientationView16">Магазин - Cua hang - цуа ханг</string>
-    <string name="orientationView17">Ресторан - Nha hang, quan an - нха ханг, куан ан</string>
-    <string name="orientationView18">Улица - Duong, pho - дуонг, фо</string>
-    <string name="orientationView19">Площадь - Quang truong - куанг труонг</string>
-    <string name="orientationView20">Какой здесь адрес? - Дьеа чии лаа зи?</string>
-    <string name="orientationView21">Где находится банк - нган_хан[г] о:дау?</string>
+    <string name="orientationView"><b>Как пройти:</b></string>
+    <string name="orientationView2"><b>Налево</b> - <i>Trai</i> - <u>Трай</u></string>
+    <string name="orientationView3"><b>Направо</b> - <i>Phai</i> - <u>Фай</u></string>
+    <string name="orientationView4"><b>Прямо</b> - <i>Thang</i> - <u>Танг</u></string>
+    <string name="orientationView5"><b>Вверх</b> - <i>Len</i> - <u>Лен</u></string>
+    <string name="orientationView6"><b>Вниз</b> - <i>Huong</i> - <u>Хуонг</u></string>
+    <string name="orientationView7"><b>Далеко</b> - <i>ha</i> - <u>Ха</u></string>
+    <string name="orientationView8"><b>Близко</b> - <i>Ga`n</i> - <u>га\'</u>н</string>
+    <string name="orientationView9"><b>Карта</b>\n<i>Ban ddo`</i>\n<u>бан ддо\'</u></string>
+    <string name="orientationView10"><b>Почта</b>\n<i>Buu-dien</i>\n<u>буу-диен</u></string>
+    <string name="orientationView11"><b>Музей</b>\n<i>Bao tang</i>\n<u>бао танг</u></string>
+    <string name="orientationView12"><b>Банк</b>\n<i>Ngan hang, nha bang</i>\n<u>нган ханг, нха банг</u></string>
+    <string name="orientationView13"><b>Милиция</b>\n<i>до\'н цанх сат</i>\n<u>до\'н цанх сат</u></string>
+    <string name="orientationView14"><b>Больница</b>\n<i>Benh vien, nha thuong</i>\n<u>бенх виен, нха туонг</u></string>
+    <string name="orientationView15"><b>Аптека</b>\n<i>Hieu thuoc</i>\n<u>хиеу туоц</u></string>
+    <string name="orientationView16"><b>Магазин</b>\n<i>Cua hang</i>\n<u>цуа ханг</u></string>
+    <string name="orientationView17"><b>Ресторан</b>\n<i>Nha hang, quan an</i>\n<u>нха ханг, куан ан</u></string>
+    <string name="orientationView18"><b>Улица</b>\n<i>Duong, pho</i>\n<u>дуонг, фо</u></string>
+    <string name="orientationView19"><b>Площадь</b>\n<i>Quang truong</i>\n<u>куанг труонг</u></string>
+    <string name="orientationView20"><b>Какой здесь адрес?</b>\n<i>Дьеа чии лаа зи?</i></string>
+    <string name="orientationView21"><b>Где находится банк</b>\n<i>нган_хан[г] о:дау?</i></string>
 </resources>

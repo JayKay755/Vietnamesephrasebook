@@ -6,12 +6,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class DateandtimeActivity extends AppCompatActivity {
+
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dateandtime);
+
+        mAdView = (AdView) findViewById(R.id.adView10);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
         ActionBar actionBar = getSupportActionBar();///////////////////
@@ -28,5 +37,23 @@ public class DateandtimeActivity extends AppCompatActivity {
             default:///////////////////////////////////////////////////
                 return super.onOptionsItemSelected(item);//////////////
         }
+    }
+
+    protected void onResume() {
+        mAdView.resume();
+
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        mAdView.pause();
+        super.onPause();
+    }
+
+    @Override
+    protected void onDestroy() {
+        mAdView.destroy();
+        super.onDestroy();
     }
 }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/emergencies"
     android:layout_width="match_parent"
@@ -13,74 +12,139 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.EmergenciesActivity">
-    <TextView
-        android:id="@+id/emergenciesView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
 
-    <TextView
-        android:id="@+id/emergenciesView2"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView2"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView9">
 
-    <TextView
-        android:id="@+id/emergenciesView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView3"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/emergenciesView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView4"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
 
-    <TextView
-        android:id="@+id/emergenciesView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView5"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
+            <TextView
+                android:id="@+id/emergenciesView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/emergenciesView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView6"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
+            <View
+                android:id="@+id/emergenciesSeparator"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
-    <TextView
-        android:id="@+id/emergenciesView7"
-        android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/emergenciesView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView2"
+                android:textSize="19sp" />
+
+            <View
+                android:id="@+id/emergenciesSeparator2"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emergenciesView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView3"
+                android:textSize="19sp" />
+
+            <View
+                android:id="@+id/emergenciesSeparator3"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emergenciesView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView4"
+                android:textSize="19sp" />
+
+            <View
+                android:id="@+id/emergenciesSeparator4"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emergenciesView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView5"
+                android:textSize="19sp" />
+
+            <View
+                android:id="@+id/emergenciesSeparator5"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emergenciesView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView6"
+                android:textSize="19sp" />
+
+            <View
+                android:id="@+id/emergenciesSeparator6"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emergenciesView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/emergenciesView7"
+                android:textSize="19sp" />
+
+            <View
+                android:id="@+id/emergenciesSeparator7"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView9"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/emergenciesView7"
-        android:textSize="19dp"
-        android:textStyle="normal|bold" />
-</LinearLayout>
-</ScrollView>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

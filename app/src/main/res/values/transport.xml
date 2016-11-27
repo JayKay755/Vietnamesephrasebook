@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="transportView">Автобус - he bus - хе бас</string>
-    <string name="transportView2">Машина - xe - хэ</string>
-    <string name="transportView3">Мотоцикл - xe gắn máy - хэ ган май</string>
-    <string name="transportView4">Поезд - he lua - хе луа</string>
-    <string name="transportView5">Аэропорт - san bay - сан бай</string>
-    <string name="transportView6">Вокзал - ga he lua - га хе луа</string>
-    <string name="transportView7">Отправление - di, kho hanh - ди, хо ханх</string>
-    <string name="transportView8">Прибытие - den - дэн</string>
-    <string name="transportView9">Такси - taxi - такси</string>
-    <string name="transportView10">Метро - Tau ddien nga`m - тау ддиен нга\'м</string>
-    <string name="transportView11">Автовокзал - Ben he bus - бен хе бас</string>
-    <string name="transportView12">Билет - Ve - Ве</string>
-    <string name="transportView13">Сколько стоит билет? - Gia ve la bao nhieu - гиа ве ла бао нхиеу?</string>
-    <string name="transportView14">Отправление - Di, kho hanh - ди, хо ханх</string>
-    <string name="transportView15">Прибытие - Den - Дэн</string>
+    <string name="transportView"><b>Автобус</b>\n<i>he bus</i>\n<u>хе бас</u></string>
+    <string name="transportView2"><b>Машина</b>\n<i>xe</i>\n<u>хэ</u></string>
+    <string name="transportView3"><b>Мотоцикл</b>\n<i>xe gắn máy</i>\n<u>хэ ган май</u></string>
+    <string name="transportView4"><b>Поезд</b>\n<i>he lua</i>\n<u>хе луа</u></string>
+    <string name="transportView5"><b>Аэропорт</b>\n<i>san bay</i>\n<u>сан бай</u></string>
+    <string name="transportView6"><b>Вокзал</b>\n<i>ga he lua</i>\n<u>га хе луа</u></string>
+    <string name="transportView7"><b>Отправление</b>\n<i>di, kho hanh</i>\n<u>ди, хо ханх</u></string>
+    <string name="transportView8"><b>Прибытие</b>\n<i>den</i>\n<u>дэн</u></string>
+    <string name="transportView9"><b>Такси</b>\n<i>taxi</i>\n<u>такси</u></string>
+    <string name="transportView10"><b>Метро</b>\n<i>Tau ddien nga`m</i>\n<u>тау ддиен нга\'м</u></string>
+    <string name="transportView11"><b>Автовокзал</b>\n<i>Ben he bus</i>\n<u>бен хе бас</u></string>
+    <string name="transportView12"><b>Билет</b>\n<i>Ve</i>\n<u>Ве</u></string>
+    <string name="transportView13"><b>Сколько стоит билет?</b>\n<i>Gia ve la bao nhieu</i>\n<u>гиа ве ла бао нхиеу?</u></string>
+    <string name="transportView14"><b>Отправление</b>\n<i>Di, kho hanh</i>\n<u>ди, хо ханх</u></string>
+    <string name="transportView15"><b>Прибытие</b>\n<i>Den</i>\n<u>Дэн</u></string>
 </resources>
