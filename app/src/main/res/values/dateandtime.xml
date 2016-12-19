@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="dateandtimeView"><b>Который час?</b>\n<i>May gio ro`i nhi?</i>\n<u>мау гио ро\'и нхи?</u></string>
+    <string name="dateandtimeView"><b>Сколько времени?</b>\n<i>Bao nhiêu thời gian?</i>\n<u>бо нью дуй зан?</u></string>
     <string name="dateandtimeView2"><b>День</b>\n<i>Ngay</i>\n<u>нгау</u></string>
     <string name="dateandtimeView3"><b>Неделя</b>\n<i>Tua`n</i>\n<u>туа\'н</u></string>
     <string name="dateandtimeView4"><b>понедельник</b>\n<i>Thu Hai</i>\n<u>ту хай</u></string>
