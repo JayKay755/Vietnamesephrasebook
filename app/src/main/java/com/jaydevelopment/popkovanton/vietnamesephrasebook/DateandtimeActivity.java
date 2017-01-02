@@ -18,13 +18,15 @@ import java.io.IOException;
 
 public class DateandtimeActivity extends AppCompatActivity implements View.OnClickListener {
 
-    ImageButton button;
+    ImageButton imageButton;
 
     final int MAX_STREAMS = 5;
 
 
     private SoundPool sp;
-    private int soundWhatsTimeIsIt;
+    private int soundWhatsTimeIsIt, soundDay, soundWeek, soundMonday,
+            soundTuesday, soundWednesday, soundThursday, soundFriday,
+            soundSaturday, soundSunday, soundSpring, soundSummer, soundAutumn, soundWinter;
     private AdView mAdView;
 
     @Override
@@ -34,14 +36,53 @@ public class DateandtimeActivity extends AppCompatActivity implements View.OnCli
 
         sp = new SoundPool(MAX_STREAMS, AudioManager.STREAM_MUSIC, 0); //создаем класс SoundPool
 
-        try {                                                                     //
-            soundWhatsTimeIsIt = sp.load(getAssets().openFd("dateandtime/whats_time_is_it.wav"), 1);   //
-        } catch (IOException e) {                                                 //
-            e.printStackTrace();                                                  //  загрузка из assets
-        }                                                                         //
+        try {                                                                                        //загрузка из assets
+            soundWhatsTimeIsIt = sp.load(getAssets().openFd("dateandtime/whats_time_is_it.ogg"), 1);
+            soundDay = sp.load(getAssets().openFd("dateandtime/day.ogg"), 1);
+            soundWeek = sp.load(getAssets().openFd("dateandtime/week.ogg"), 1);
+            soundMonday = sp.load(getAssets().openFd("dateandtime/monday.ogg"), 1);
+            soundTuesday = sp.load(getAssets().openFd("dateandtime/tuesday.ogg"), 1);
+            soundWednesday = sp.load(getAssets().openFd("dateandtime/wednesday.ogg"), 1);
+            soundThursday = sp.load(getAssets().openFd("dateandtime/thursday.ogg"), 1);
+            soundFriday = sp.load(getAssets().openFd("dateandtime/friday.ogg"), 1);
+            soundSaturday = sp.load(getAssets().openFd("dateandtime/saturday.ogg"), 1);
+            soundSunday = sp.load(getAssets().openFd("dateandtime/sunday.ogg"), 1);
+            soundSpring = sp.load(getAssets().openFd("dateandtime/spring.ogg"), 1);
+            soundSummer = sp.load(getAssets().openFd("dateandtime/summer.ogg"), 1);
+            soundAutumn = sp.load(getAssets().openFd("dateandtime/autumn.ogg"), 1);
+            soundWinter = sp.load(getAssets().openFd("dateandtime/winter.ogg"), 1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-        button = (ImageButton) findViewById(R.id.imageButton);
-        button.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton2);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton3);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton4);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton5);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton6);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton7);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton8);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton9);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton10);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton11);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton12);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton13);
+        imageButton.setOnClickListener(this);
+        imageButton = (ImageButton) findViewById(R.id.imageButton14);
+        imageButton.setOnClickListener(this);
 
         mAdView = (AdView) findViewById(R.id.adView10);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -69,6 +110,45 @@ public class DateandtimeActivity extends AppCompatActivity implements View.OnCli
         switch (v.getId()) {
             case R.id.imageButton:
                 sp.play(soundWhatsTimeIsIt, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton2:
+                sp.play(soundDay, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton3:
+                sp.play(soundWeek, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton4:
+                sp.play(soundMonday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton5:
+                sp.play(soundTuesday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton6:
+                sp.play(soundWednesday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton7:
+                sp.play(soundThursday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton8:
+                sp.play(soundFriday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton9:
+                sp.play(soundSaturday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton10:
+                sp.play(soundSunday, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton11:
+                sp.play(soundSpring, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton12:
+                sp.play(soundSummer, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton13:
+                sp.play(soundAutumn, 1, 1, 0, 0, 1);
+                break;
+            case R.id.imageButton14:
+                sp.play(soundWinter, 1, 1, 0, 0, 1);
                 break;
         }
     }
