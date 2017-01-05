@@ -16,9 +16,9 @@ import com.google.android.gms.ads.AdView;
 import java.io.IOException;
 
 
-public class DateandtimeActivity extends AppCompatActivity implements View.OnClickListener {
+public class DateandtimeActivity extends AppCompatActivity {
 
-    ImageButton imageButton;
+    //ImageButton imageButton;
 
     final int MAX_STREAMS = 5;
 
@@ -55,34 +55,34 @@ public class DateandtimeActivity extends AppCompatActivity implements View.OnCli
             e.printStackTrace();
         }
 
-        imageButton = (ImageButton) findViewById(R.id.imageButton);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton2);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton3);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton4);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton5);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton6);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton7);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton8);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton9);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton10);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton11);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton12);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton13);
-        imageButton.setOnClickListener(this);
-        imageButton = (ImageButton) findViewById(R.id.imageButton14);
-        imageButton.setOnClickListener(this);
+       // imageButton = (ImageButton) findViewById(R.id.imageButton);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton2);
+       // imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton3);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton4);
+        //imageButton.setOnClickListener(this);
+       // imageButton = (ImageButton) findViewById(R.id.imageButton5);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton6);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton7);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton8);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton9);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton10);
+       // imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton11);
+        //imageButton.setOnClickListener(this);
+        //imageButton = (ImageButton) findViewById(R.id.imageButton12);
+       // imageButton.setOnClickListener(this);
+       // imageButton = (ImageButton) findViewById(R.id.imageButton13);
+        //imageButton.setOnClickListener(this);
+       // imageButton = (ImageButton) findViewById(R.id.imageButton14);
+       // imageButton.setOnClickListener(this);
 
         mAdView = (AdView) findViewById(R.id.adView10);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -105,7 +105,7 @@ public class DateandtimeActivity extends AppCompatActivity implements View.OnCli
         }
     }
 
-    @Override
+    //@Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.imageButton:

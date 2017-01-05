@@ -23,11 +23,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentLeft="true">
-
                 <TextView
                     android:id="@+id/dateandtimeView"
                     android:layout_width="wrap_content"
@@ -40,7 +35,7 @@
 
                 <View
                     android:id="@+id/dateandtimeSeparator"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="0.2dp"
                     android:layout_below="@+id/dateandtimeView"
                     android:background="@android:color/darker_gray"
@@ -293,11 +288,6 @@
                     android:background="@android:color/darker_gray"
                     android:visibility="visible" />
 
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentRight="true">
-
 
                     <ImageButton
                         android:layout_marginRight="10dp"
@@ -305,102 +295,143 @@
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
                         android:id="@+id/imageButton"
-                        android:layout_alignParentTop="true" />
+                        android:layout_alignParentTop="true"
+                        android:layout_above="@+id/dateandtimeSeparator"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick" />
 
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton2" />
+                        android:id="@+id/imageButton2"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator2"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton3" />
+                        android:id="@+id/imageButton3"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator3"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton4" />
+                        android:id="@+id/imageButton4"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator4"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton5" />
+                        android:id="@+id/imageButton5"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator5"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton6" />
+                        android:id="@+id/imageButton6"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator6"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton7" />
+                        android:id="@+id/imageButton7"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator7"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton8" />
+                        android:id="@+id/imageButton8"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator8"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton9" />
+                        android:id="@+id/imageButton9"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator9"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton10" />
+                        android:id="@+id/imageButton10"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator10"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton11" />
+                        android:id="@+id/imageButton11"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator11"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton12" />
+                        android:id="@+id/imageButton12"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator12"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton13" />
+                        android:id="@+id/imageButton13"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator13"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
                     <ImageButton
-                        android:layout_marginTop="46dp"
                         android:layout_below="@+id/imageButton13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"
-                        android:id="@+id/imageButton14" />
+                        android:id="@+id/imageButton14"
+                        android:layout_marginRight="10dp"
+                        android:layout_above="@+id/dateandtimeSeparator14"
+                        android:layout_alignParentRight="true"
+                        android:onClick="onClick"/>
 
-                </RelativeLayout>
-            </RelativeLayout>
+
         </RelativeLayout>
 
 
