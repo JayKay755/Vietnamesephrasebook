@@ -31,8 +31,9 @@ public class TransportActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {//////////////ДОМОЙ
         switch (item.getItemId()) {////////////////////////////////////
             case android.R.id.home:////////////////////////////////////
-                startActivity(new Intent(this, MainActivity.class));///
-                return true;///////////////////////////////////////////
+                //startActivity(new Intent(this, MainActivity.class));///
+                finish();
+                //return true;
             default:///////////////////////////////////////////////////
                 return super.onOptionsItemSelected(item);//////////////
         }
