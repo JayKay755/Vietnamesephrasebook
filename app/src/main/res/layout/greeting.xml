@@ -1,267 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/greeting"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GreetingActivity">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/adView2">
 
-        <LinearLayout
-            android:id="@+id/linear"
+        <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:paddingRight="@dimen/activity_horizontal_margin">
 
             <TextView
                 android:id="@+id/greetingView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="0"
                 android:text="@string/greetingView"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/greetingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="0"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
+
             <View
                 android:id="@+id/greetingSeparator"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="1"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
+
 
             <TextView
                 android:id="@+id/greetingView2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="2"
                 android:text="@string/greetingView2"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/greetingButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="2"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
+
             <View
                 android:id="@+id/greetingSeparator2"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="3"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
+
             <TextView
                 android:id="@+id/greetingView3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="4"
                 android:text="@string/greetingView3"
                 android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/greetingButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="4"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
 
             <View
                 android:id="@+id/greetingSeparator3"
                 android:layout_width="fill_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="5"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/greetingView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="6"
                 android:text="@string/greetingView4"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/greetingButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="6"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
+
             <View
                 android:id="@+id/greetingSeparator4"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="7"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
+
             <TextView
                 android:id="@+id/greetingView5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="8"
                 android:text="@string/greetingView5"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/greetingButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="8"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
+
             <View
                 android:id="@+id/greetingSeparator5"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="9"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/greetingView6"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="10"
                 android:text="@string/greetingView6"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/greetingButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="10"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
+
             <View
                 android:id="@+id/greetingSeparator6"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="11"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
+
 
             <TextView
                 android:id="@+id/greetingView7"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="12"
                 android:text="@string/greetingView7"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/greetingButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="12"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp" />
+
             <View
                 android:id="@+id/greetingSeparator7"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView8"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator8"
-                android:layout_width="fill_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="13"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
-            <TextView
-                android:id="@+id/greetingView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView9"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator9"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView10"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator10"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView11"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator11"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView12"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator12"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView13"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator13"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView14"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator14"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/greetingView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/greetingView15"
-                android:textSize="19sp" />
-
-            <View
-                android:id="@+id/greetingSeparator15"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-        </LinearLayout>
+        </GridLayout>
     </ScrollView>
 
     <com.google.android.gms.ads.AdView

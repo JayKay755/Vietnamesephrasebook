@@ -123,8 +123,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 startActivity(intent11);
                 break;
             case R.id.button12:
-                Intent intent12 = new Intent(MainActivity.this, NumberActivity.class);
+                Intent intent12 = new Intent(MainActivity.this, FoodActivity.class);
                 startActivity(intent12);
+                break;
+            case R.id.button13:
+                Intent intent13 = new Intent(MainActivity.this, NumberActivity.class);
+                startActivity(intent13);
                 break;
         }
     }

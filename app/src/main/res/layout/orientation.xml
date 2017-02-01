@@ -6,10 +6,8 @@
     android:id="@+id/orientation"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.OrientationActivity">
 
@@ -18,311 +16,535 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/adView6">
 
-        <LinearLayout
-            android:id="@+id/linear"
+        <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:paddingRight="@dimen/activity_horizontal_margin">
 
 
             <TextView
                 android:id="@+id/orientationView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_marginBottom="5dp"
+                android:layout_row="0"
                 android:text="@string/orientationView"
                 android:textSize="19sp"/>
 
             <View
                 android:id="@+id/orientationSeparator"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="1"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="2"
                 android:text="@string/orientationView2"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="2"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <TextView
                 android:id="@+id/orientationView3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="3"
                 android:text="@string/orientationView3"
                 android:textSize="19sp"/>
+
+            <ImageButton
+                android:id="@+id/orientationButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="3"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
 
             <TextView
                 android:id="@+id/orientationView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="4"
                 android:text="@string/orientationView4"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="4"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <TextView
                 android:id="@+id/orientationView5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="5"
                 android:text="@string/orientationView5"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="5"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <TextView
                 android:id="@+id/orientationView6"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="6"
                 android:text="@string/orientationView6"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="6"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <TextView
                 android:id="@+id/orientationView7"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="7"
                 android:text="@string/orientationView7"
-                android:textSize="19sp"/>
+                android:textSize="19sp"/>м
 
+            <ImageButton
+                android:id="@+id/orientationButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="7"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <TextView
                 android:id="@+id/orientationView8"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="8"
                 android:text="@string/orientationView8"
                 android:textSize="19sp"/>
 
+            <ImageButton
+                android:id="@+id/orientationButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="8"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator8"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="9"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView9"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="10"
                 android:text="@string/orientationView9"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="10"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator9"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="11"
                 android:background="@android:color/darker_gray" />
 
             <TextView
                 android:id="@+id/orientationView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="12"
                 android:text="@string/orientationView10"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="12"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator10"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="13"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="14"
                 android:text="@string/orientationView11"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="14"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator11"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="15"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/gorientationView12"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="16"
                 android:text="@string/orientationView12"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="16"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator12"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="17"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView13"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="18"
                 android:text="@string/orientationView13"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="18"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator13"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="19"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView14"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="20"
                 android:text="@string/orientationView14"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="20"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator14"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="21"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView15"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="22"
                 android:text="@string/orientationView15"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="22"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator15"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="23"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView16"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="24"
                 android:text="@string/orientationView16"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="24"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator16"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="25"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView17"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="26"
                 android:text="@string/orientationView17"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="26"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator17"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="27"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView18"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="28"
                 android:text="@string/orientationView18"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="28"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator18"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="29"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationView19"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="30"
                 android:text="@string/orientationView19"
                 android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/orientationButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="30"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
             <View
                 android:id="@+id/orientationSeparator19"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="31"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/orientationVie20"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="32"
                 android:text="@string/orientationView20"
                 android:textSize="19sp"/>
 
-            <View
-                android:id="@+id/orientationSeparator20"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/orientationView21"
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/orientationButton19"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/orientationView21"
-                android:textSize="19sp"/>
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="32"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
-            <View
-                android:id="@+id/orientationSeparator22"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-        </LinearLayout>
+        </GridLayout>
     </ScrollView>
 
     <com.google.android.gms.ads.AdView

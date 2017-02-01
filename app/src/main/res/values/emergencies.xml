@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="emergenciesView"><b>Пожарная служба</b>\n<i>sở cứu hỏa</i>\n<u>со суу хоа</u></string>
-    <string name="emergenciesView2"><b>Полиция</b>\n<i>do`n canh sat</i>\n<u>до\'н цанх сат</u></string>
-    <string name="emergenciesView3"><b>Скорая помощь</b>\n<i>xe cứu thương</i>\n<u>хэ суу хуонг</u></string>
-    <string name="emergenciesView4"><b>Больница</b>\n<i>benh vien</i>\n<u>бенх виен</u></string>
+    <string name="emergenciesView"><b>Пожарная служба</b>\n<i>sở cứu hỏa</i>\n<u>со куу хаа</u></string>
+    <string name="emergenciesView2"><b>Полиция</b>\n<i>cảnh sát</i>\n<u>тэнх сат</u></string>
+    <string name="emergenciesView3"><b>Скорая помощь</b>\n<i>xe cứu thương</i>\n<u>сэ куу тьюн</u></string>
+    <string name="emergenciesView4"><b>Больница</b>\n<i>bệnh viện</i>\n<u>бенх виен</u></string>
     <string name="emergenciesView5"><b>Больно</b>\n<i>đau đớn</i>\n<u>дау дон</u></string>
-    <string name="emergenciesView6"><b>Аптека</b>\n<i>hieu thuoc</i>\n<u>хиеу туоц</u></string>
+    <string name="emergenciesView6"><b>Аптека</b>\n<i>tiệm thuốc tây</i>\n<u>тьем тук тай</u></string>
     <string name="emergenciesView7"><b>Доктор</b>\n<i>bác sĩ</i>\n<u>бас си</u></string>
 </resources>

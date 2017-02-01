@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="numberView"><b>0</b>\n<i>khong</i>\n<u>хонг</u></string>
-    <string name="numberView2"><b>1</b>\n<i>mot</i>\n<u>Мот</u></string>
-    <string name="numberView3"><b>2</b>\n<i>hai</i>\n<u>Хай</u></string>
-    <string name="numberView4"><b>3</b>\n<i>Ba</i>\n<u>ба</u></string>
-    <string name="numberView5"><b>4</b>\n<i>bon</i>\n<u>Бон</u></string>
-    <string name="numberView6"><b>5</b>\n<i>na</i>\n<u>На</u></string>
-    <string name="numberView7"><b>6</b>\n<i>sau</i>\n<u>ай</u></string>
-    <string name="numberView8"><b>7</b>\n<i>bay</i>\n<u>Бай</u></string>
-    <string name="numberView9"><b>8</b>\n<i>tam</i>\n<u>Там</u></string>
-    <string name="numberView10"><b>9</b>\n<i>chin</i>\n<u>Чин</u></string>
-    <string name="numberView11"><b>10</b>\n<i>muoi</i>\n<u>муой</u></string>
-    <string name="numberView12"><b>11</b>\n<i>muoi mot</i>\n<u>Муой мот</u></string>
-    <string name="numberView13"><b>20</b>\n<i>hai muoi</i>\n<u>Хай муой</u></string>
-    <string name="numberView14"><b>21</b>\n<i>muoi</i>\n<u>муой</u></string>
-    <string name="numberView15"><b>30</b>\n<i>ba muoi</i>\n<u>Ба муой</u></string>
-    <string name="numberView16"><b>40</b>\n<i>bon muoi</i>\n<u>Бон муой</u></string>
-    <string name="numberView17"><b>50</b>\n<i>na(m muoi</i>\n<u>На муой</u></string>
-    <string name="numberView18"><b>100</b>\n<i>mot tram</i>\n<u>мот трам</u></string>
-    <string name="numberView19"><b>1 000</b>\n<i>mot ngan</i>\n<u>мот нган</u></string>
+    <string name="numberView"><b>0</b>\n<i>số không</i>\n<u>со хонг</u></string>
+    <string name="numberView2"><b>1</b>\n<i>một</i>\n<u>мут</u></string>
+    <string name="numberView3"><b>2</b>\n<i>hai</i>\n<u>хай</u></string>
+    <string name="numberView4"><b>3</b>\n<i>ba</i>\n<u>ба</u></string>
+    <string name="numberView5"><b>4</b>\n<i>bốn</i>\n<u>боон</u></string>
+    <string name="numberView6"><b>5</b>\n<i>số năm</i>\n<u>со нам</u></string>
+    <string name="numberView7"><b>6</b>\n<i>sáu</i>\n<u>сау</u></string>
+    <string name="numberView8"><b>7</b>\n<i>bảy</i>\n<u>бай</u></string>
+    <string name="numberView9"><b>8</b>\n<i>tám</i>\n<u>там</u></string>
+    <string name="numberView10"><b>9</b>\n<i>chín</i>\n<u>тин</u></string>
+    <string name="numberView11"><b>10</b>\n<i>mười</i>\n<u>муой</u></string>
+    <string name="numberView12"><b>11</b>\n<i>mười một</i>\n<u>муой мот</u></string>
+    <string name="numberView13"><b>20</b>\n<i>hai mươi</i>\n<u>хай муой</u></string>
+    <string name="numberView14"><b>100</b>\n<i>một trăm</i>\n<u>мот тям</u></string>
+    <string name="numberView15"><b>1000</b>\n<i>một ngàn</i>\n<u>мот нган</u></string>
 </resources>

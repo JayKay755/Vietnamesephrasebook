@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="purchasesView"><b>Где я могу купить...?</b>\n<i>Tôi có thể mua... Ở đâu?</i>\n<u>той ко тхе муа…о дау?</u></string>
-    <string name="purchasesView2"><b>Когда открывается (закрывается) магазин...?</b>\n<i>Cửa hàng mở (đóng)  cửa lúc mấy giờ?</i>\n<u>кыа ханг мо(донг)кыа люк мэй зё?</u></string>
-    <string name="purchasesView3"><b>Где продается одежда...</b>\n<i>Quần aó bán ở đâu...</i>\n<u>куан ао бан о дау...</u></string>
-    <string name="purchasesView4"><b>~ мужская</b> - <i>quần aó nam</i> - <u>куан ао нам</u></string>
-    <string name="purchasesView5"><b>~ женская</b> - <i>quần aó nữ</i> - <u>куан ао ны</u></string>
-    <string name="purchasesView6"><b>~ детская</b> - <i>quần aó trẻ con</i> - <u>куан ао че кон</u></string>
-    <string name="purchasesView7"><b>Я хочу купить...</b>\n<i>Tôi muốn mua...</i>\n<u>той муон муа</u></string>
-    <string name="purchasesView8"><b>Здесь продают...?</b>\n<i>Ở đây có bán... Không?</i>\n<u>о дэй ко бан… хонг?</u></string>
-    <string name="purchasesView9"><b>Сколько (это) стоит...?</b>\n<i>Cái này gía bao nhiêu?</i>\n<u>кай най зя бао ниеу?</u></string>
-    <string name="purchasesView10"><b>Это мне (не) нравится.</b>\n<i>Tôi không thích cái này.</i>\n<u>той хонг тхить кай най</u></string>
-    <string name="purchasesView11"><b>Это  дорого.</b>\n<i>Cái này rất đất</i>\n<u>кай най зат дат</u></string>
-    <string name="purchasesView12"><b>Я беру это.</b>\n<i>Tôi mua cái này.</i>\n<u>той муа кай най</u></string>
-    <string name="purchasesView13"><b>Дешевый</b>\n<i>Rẻ</i>\n<u>зе</u></string>
-    <string name="purchasesView14"><b>Дорогой</b>\n<i>Đất</i>\n<u>дат</u></string>
-    <string name="purchasesView15"><b>Магазин</b>\n<i>Cửa hàng</i>\n<u>кыа ханг</u></string>
-    <string name="purchasesView16"><b>Открыто с... До...</b>\n<i>Mở cửa từ... Đến... Giờ</i>\n<u>мо кыа ты… дейн… зё</u></string>
-    <string name="purchasesView17"><b>Платить</b>\n<i>Trả tiền</i>\n<u>ча тиен</u></string>
-    <string name="purchasesView18"><b>Покупать</b>\n<i>Mua</i>\n<u>муа</u></string>
-    <string name="purchasesView19"><b>Продавать</b>\n<i>Bán</i>\n<u>бан</u></string>
-    <string name="purchasesView20"><b>Товар</b>\n<i>Hàng hóa</i>\n<u>ханг хоа</u></string>
-    <string name="purchasesView21"><b>Цена</b>\n<i>Gía</i>\n<u>зя</u></string>
-    <string name="purchasesView22"><b>Сколько стоит...</b>\n<i>Gía bao nhiêu tiền...</i>\n<u>зя бао ниеу тиен</u></string>
-    <string name="purchasesView23"><b>~ Бутылка</b> - <i>Một chai</i> - <u>мот тяй</u></string>
-    <string name="purchasesView24"><b>~ Пачка сигарет</b> - <i>Một bao thuốc là</i> - <u>мот бао тхуок ла</u></string>
-    <string name="purchasesView25"><b>Я ищу перчатки (шарф)</b>\n<i>Tôi cần găng tay (khăn quàng cổ)</i>\n<u>той канн ганг тай (хан куанг ко)</u></string>
-    <string name="purchasesView26"><b>Покажите мне что-нибудь...</b>\n<i>Cho tôi xem cái gì (nào đó)...</i>\n<u>тё той сем кай зи (нао до)</u></string>
-    <string name="purchasesView27"><b>~ Подешевле</b> - <i>rẻ hơn</i> - <u>зе хон</u></string>
-    <string name="purchasesView28"><b>~ Получше</b> - <i>tốt hơn</i> - <u>тот хон</u></string>
-    <string name="purchasesView29"><b>~ другого фасона</b> - <i>kiểu khác</i> - <u>киеу хак</u></string>
-    <string name="purchasesView30"><b>~ другой расцветки</b> - <i>màu khác</i> - <u>мау хак</u></string>
-    <string name="purchasesView31"><b>~ другого рисунка</b> - <i>họa tiết khác</i> - <u>хоа тиет хак</u></string>
-    <string name="purchasesView32"><b>Нет, мне не нравится.</b>\n<i>Không, tôi không thích.</i>\n<u>хонг, той хонг тхить</u></string>
+    <string name="purchasesView"><b>Мужская одежда</b>\n<i>quần áo đàn ông</i>\n<u>куан ао дан оун</u></string>
+    <string name="purchasesView2"><b>Женская одежда</b>\n<i>quần áo của phụ nữ</i>\n<u>куан ао ко фу нуу</u></string>
+    <string name="purchasesView3"><b>Детская одежда</b>\n<i>quần áo trẻ em</i>\n<u>куан ао тце ем</u></string>
+    <string name="purchasesView4"><b>Сколько это стоит?</b>\n<i>bao nhiêu?</i>\n<u>бо нью?</u></string>
+    <string name="purchasesView5"><b>Это мне не нравится</b>\n<i>Tôi không thích</i>\n<u>той хонг тхить</u></string>
+    <string name="purchasesView6"><b>Я беру это</b>\n<i>tôi mua nó</i>\n<u>той муа наа</u></string>
+    <string name="purchasesView7"><b>Дешевый</b>\n<i>rẻ</i>\n<u>зе</u></string>
+    <string name="purchasesView8"><b>Дорогой</b>\n<i>đắt</i>\n<u>да</u></string>
+    <string name="purchasesView9"><b>Магазин</b>\n<i>cửa hàng</i>\n<u>гу ханг</u></string>
 </resources>

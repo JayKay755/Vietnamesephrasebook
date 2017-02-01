@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="foodView"><b>Курица</b>\n<i>gà</i>\n<u>га</u></string>
+    <string name="foodView2"><b>Говядина</b>\n<i>thịt bò</i>\n<u>тит бо</u></string>
+    <string name="foodView3"><b>Свинина</b>\n<i>thịt heo</i>\n<u>тит хеу</u></string>
+    <string name="foodView4"><b>Рис</b>\n<i>cơm</i>\n<u>ком</u></string>
+    <string name="foodView5"><b>Лапша</b>\n<i>mì sợi</i>\n<u>ми сой</u></string>
+    <string name="foodView6"><b>Суп</b>\n<i>cảnh</i>\n<u>кань</u></string>
+    <string name="foodView7"><b>Манго</b>\n<i>xoài</i>\n<u>соай</u></string>
+    <string name="foodView8"><b>Бананы</b>\n<i>trái chuối</i>\n<u>цай цой</u></string>
+    <string name="foodView9"><b>Арбуз</b>\n<i>dưa hấu</i>\n<u>зу хау</u></string>
+    <string name="foodView10"><b>Дуриан</b>\n<i>quả sầu riêng</i>\n<u>ква со зиен</u></string>
+    <string name="foodView11"><b>Саподилла</b>\n<i>sa-pô-chê</i>\n<u>са по че</u></string>
+    <string name="foodView12"><b>Мангустин</b>\n<i>măng cụt</i>\n<u>ман кут</u></string>
+    <string name="foodView13"><b>Папайя</b>\n<i>đu đủ</i>\n<u>ду ду</u></string>
+    <string name="foodView14"><b>Маракуйя</b>\n<i>chanh dây</i>\n<u>чанг зей</u></string>
+    <string name="foodView15"><b>Гуава</b>\n<i>trái ổi</i>\n<u>цяй ой</u></string>
+</resources>

@@ -17,7 +17,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,23 +32,50 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.GreetingActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.StandartphraseActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.RailwayActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.PassportcontrolActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.OrientationActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.TransportActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.HotelActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.RestaurantActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.EmergenciesActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.DateandtimeActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.PurchasesActivity" />
-        <activity android:name="com.jaydevelopment.popkovanton.vietnamesephrasebook.NumberActivity"></activity>
 
+        <activity
+            android:name=".GreetingActivity"
+            android:label="Приветствия" />
+        <activity
+            android:name=".StandartphraseActivity"
+            android:label="Стандартные фразы" />
+        <activity
+            android:name=".RailwayActivity"
+            android:label="Вокзал" />
+        <activity
+            android:name=".PassportcontrolActivity"
+            android:label="Паспортный контроль" />
+        <activity
+            android:name=".OrientationActivity"
+            android:label="Ориентация в городе" />
+        <activity
+            android:name=".TransportActivity"
+            android:label="Транспорт" />
+        <activity
+            android:name=".HotelActivity"
+            android:label="Гостиница" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:label="Ресторан" />
+        <activity
+            android:name=".EmergenciesActivity"
+            android:label="Чрезвычайные ситуации" />
+        <activity
+            android:name=".DateandtimeActivity"
+            android:label="Даты и время" />
+        <activity
+            android:name=".PurchasesActivity"
+            android:label="Покупки" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="Еда" />
+        <activity
+            android:name=".NumberActivity"
+            android:label="Числа и цифры" />
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-    </application>
 
+    </application>
 
 </manifest>
