@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     Button button10;
     Button button11;
     Button button12;
+    Button button13;
 
 
     @Override
@@ -71,6 +72,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         button11.setOnClickListener(this);
         button12 = (Button) findViewById(R.id.button12);
         button12.setOnClickListener(this);
+        button13 = (Button) findViewById(R.id.button13);
+        button13.setOnClickListener(this);
 
     }
 
