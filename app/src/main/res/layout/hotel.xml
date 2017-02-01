@@ -6,10 +6,8 @@
     android:id="@+id/hotel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.HotelActivity">
 
@@ -18,871 +16,816 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/adView8">
 
-        <LinearLayout
-            android:id="@+id/linear"
+        <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:paddingRight="@dimen/activity_horizontal_margin">
 
 
             <TextView
                 android:id="@+id/hotelView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="0"
                 android:text="@string/hotelView"
                 android:textSize="19sp" />
 
             <View
                 android:id="@+id/hotelSeparator"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="1"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="2"
                 android:text="@string/hotelView2"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="2"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator2"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="3"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="4"
                 android:text="@string/hotelView3"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="4"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator3"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="5"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="6"
                 android:text="@string/hotelView4"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="6"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator4"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="7"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="8"
                 android:text="@string/hotelView5"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="8"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator5"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="9"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView6"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="10"
                 android:text="@string/hotelView6"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="10"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator6"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="11"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView7"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="12"
                 android:text="@string/hotelView7"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="12"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator7"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="13"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView8"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="14"
                 android:text="@string/hotelView8"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="14"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator8"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="15"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView9"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="16"
                 android:text="@string/hotelView9"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="16"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator9"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="17"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="18"
                 android:text="@string/hotelView10"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="18"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator10"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="19"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="20"
                 android:text="@string/hotelView11"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="20"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator11"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="21"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
-                android:id="@+id/ghotelView12"
-                android:layout_width="match_parent"
+                android:id="@+id/hotelView12"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="22"
                 android:text="@string/hotelView12"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="22"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator12"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="23"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView13"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="24"
                 android:text="@string/hotelView13"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="24"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator13"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="25"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView14"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="26"
                 android:text="@string/hotelView14"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="26"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator14"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="27"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView15"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="28"
                 android:text="@string/hotelView15"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="28"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator15"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="29"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView16"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="30"
                 android:text="@string/hotelView16"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="30"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator16"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="31"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView17"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="32"
                 android:text="@string/hotelView17"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
             <View
                 android:id="@+id/hotelSeparator17"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="33"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView18"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="34"
                 android:text="@string/hotelView18"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="34"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator18"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="35"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView19"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="36"
                 android:text="@string/hotelView19"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="36"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator19"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="37"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelVie20"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="38"
                 android:text="@string/hotelView20"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="38"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator20"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="39"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView21"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="40"
                 android:text="@string/hotelView21"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="40"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator21"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="41"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView22"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="42"
                 android:text="@string/hotelView22"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
-
-            <TextView
-                android:id="@+id/hotelView23"
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/hotelButton20"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView23"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView24"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView24"
-                android:textSize="19sp"/>
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="42"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
-                android:id="@+id/hotelSeparator24"
-                android:layout_width="fill_parent"
+                android:id="@+id/hotelSeparator22"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="43"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
-                android:id="@+id/hotelView25"
-                android:layout_width="match_parent"
+                android:id="@+id/hotelView23"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="44"
+                android:text="@string/hotelView23"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="44"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator23"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="45"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/hotelView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="46"
+                android:text="@string/hotelView24"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="46"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator24"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="47"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/hotelView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="48"
                 android:text="@string/hotelView25"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
             <View
                 android:id="@+id/hotelSeparator25"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="49"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView26"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="50"
                 android:text="@string/hotelView26"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/hotelButton23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="50"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/hotelSeparator26"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="51"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView27"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="52"
                 android:text="@string/hotelView27"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
+            <ImageButton
+                android:id="@+id/hotelButton24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="52"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+
+            <View
+                android:id="@+id/hotelSeparator27"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="53"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/hotelView28"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="54"
                 android:text="@string/hotelView28"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
-
-            <TextView
-                android:id="@+id/hotelView29"
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/hotelButton25"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView29"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator29"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView30"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView30"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator30"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView31"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView31"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator31"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView32"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView32"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator32"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView33"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView33"
-                android:textSize="19sp"/>
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="54"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
 
-            <TextView
-                android:id="@+id/hotelView34"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView34"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator34"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView35"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView35"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator35"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView36"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView36"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator36"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView37"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator37"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView38"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView38"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator38"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView39"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView39"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator39"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView40"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView40"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator40"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView41"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView41"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator41"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView42"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator42"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView43"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView43"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator43"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView44"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView44"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator44"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView45"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView45"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator45"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView46"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView46"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView47"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView47"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView48"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView48"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator48"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView4̣̣9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView49"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator49"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView50"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView50"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator50"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView51"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView51"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView52"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView52"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView53"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView53"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator53"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView54"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView54"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator54"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView55"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView55"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView56"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView56"
-                android:textSize="19sp"/>
-
-
-            <TextView
-                android:id="@+id/hotelView57"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView57"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator57"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView58"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView58"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator58"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView59"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView59"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator59"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/hotelView60"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hotelView60"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/hotelSeparator60"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-        </LinearLayout>
+        </GridLayout>
     </ScrollView>
 
     <com.google.android.gms.ads.AdView

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="dateandtimeView"><b>Который час?</b>\n<i>May gio ro`i nhi?</i>\n<u>мау гио ро\'и нхи?</u></string>
-    <string name="dateandtimeView2"><b>День</b>\n<i>Ngay</i>\n<u>нгау</u></string>
-    <string name="dateandtimeView3"><b>Неделя</b>\n<i>Tua`n</i>\n<u>туа\'н</u></string>
-    <string name="dateandtimeView4"><b>понедельник</b>\n<i>Thu Hai</i>\n<u>ту хай</u></string>
-    <string name="dateandtimeView5"><b>вторник</b>\n<i>Thu Ba</i>\n<u>ту ба</u></string>
-    <string name="dateandtimeView6"><b>среда</b>\n<i>Thu Tu</i>\n<u>ту ту</u></string>
-    <string name="dateandtimeView7"><b>четверг</b>\n<i>Thu Nam</i>\n<u>ту нам</u></string>
-    <string name="dateandtimeView8"><b>пятница</b>\n<i>Thu Sau</i>\n<u>ту сау</u></string>
-    <string name="dateandtimeView9"><b>суббота</b>\n<i>Thu Bay</i>\n<u>ту бай</u></string>
-    <string name="dateandtimeView10"><b>воскресенье</b>\n<i>Chu Nhat</i>\n<u>чу нхат</u></string>
-    <string name="dateandtimeView11"><b>Весна</b>\n<i>Mua huan</i>\n<u>муа хуан</u></string>
-    <string name="dateandtimeView12"><b>Лето</b>\n<i>Mua He (Ha)</i>\n<u>муа хе (ха)</u></string>
-    <string name="dateandtimeView13"><b>Осень</b>\n<i>Mua Thu</i>\n<u>муа ту</u></string>
-    <string name="dateandtimeView14"><b>Зима</b>\n<i>Mua-Dong</i>\n<u>муа-донг</u></string>
+    <string name="dateandtimeView"><b>Сколько времени?</b>\n<i>Bao nhiêu thời gian?</i>\n<u>бо нью туй зан?</u></string>
+    <string name="dateandtimeView2"><b>День</b>\n<i>ngày</i>\n<u>най</u></string>
+    <string name="dateandtimeView3"><b>Неделя</b>\n<i>tuần</i>\n<u>туа\'н</u></string>
+    <string name="dateandtimeView4"><b>понедельник</b>\n<i>thứ hai</i>\n<u>ту хай</u></string>
+    <string name="dateandtimeView5"><b>вторник</b>\n<i>thứ ba</i>\n<u>ту ба</u></string>
+    <string name="dateandtimeView6"><b>среда</b>\n<i>thứ tư</i>\n<u>ту ту</u></string>
+    <string name="dateandtimeView7"><b>четверг</b>\n<i>thứ năm</i>\n<u>ту нам</u></string>
+    <string name="dateandtimeView8"><b>пятница</b>\n<i>thứ sáu</i>\n<u>ту сау</u></string>
+    <string name="dateandtimeView9"><b>суббота</b>\n<i>thứ bảy</i>\n<u>ту бай</u></string>
+    <string name="dateandtimeView10"><b>воскресенье</b>\n<i>chủ nhật</i>\n<u>чу н\'хат</u></string>
+    <string name="dateandtimeView11"><b>Весна</b>\n<i>mùa xuân</i>\n<u>муй сун</u></string>
+    <string name="dateandtimeView12"><b>Лето</b>\n<i>mùa hè</i>\n<u>муй хе</u></string>
+    <string name="dateandtimeView13"><b>Осень</b>\n<i>mùa thu</i>\n<u>муй ту</u></string>
+    <string name="dateandtimeView14"><b>Зима</b>\n<i>mùa đông</i>\n<u>муй дон</u></string>
 </resources>

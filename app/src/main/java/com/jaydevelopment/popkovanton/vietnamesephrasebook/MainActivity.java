@@ -18,7 +18,6 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 
-
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
     private AdView mAdView;
 
@@ -36,13 +35,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     Button button12;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544/6300978111");
+        // MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544/6300978111");
 
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -125,8 +123,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 startActivity(intent11);
                 break;
             case R.id.button12:
-                Intent intent12 = new Intent(MainActivity.this, NumberActivity.class);
+                Intent intent12 = new Intent(MainActivity.this, FoodActivity.class);
                 startActivity(intent12);
+                break;
+            case R.id.button13:
+                Intent intent13 = new Intent(MainActivity.this, NumberActivity.class);
+                startActivity(intent13);
                 break;
         }
     }

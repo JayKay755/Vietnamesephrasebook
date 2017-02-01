@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="railwayView"><b>Вокзал</b>\n<i>Ga he lua</i>\n<u>га хе луа</u></string>
-    <string name="railwayView2"><b>Отправление</b>\n<i>Di, kho hanh</i>\n<u>ди, хо ханх</u></string>
-    <string name="railwayView3"><b>Прибытие</b>\n<i>Den</i>\n<u>эн</u></string>
-    <string name="railwayView4"><b>Поезд</b>\n<i>he lua</i>\n<u>хе луа</u></string>
-    <string name="railwayView5"><b>Сколько стоит билет?</b>\n<i>Gia ve la bao nhieu</i>\n<u>гиа ве ла бао нхиеу?</u></string>
-    <string name="railwayView6"><b>Паспорт</b>\n<i>Ho Chieu</i>\n<u>хо чиеу</u></string>
+    <string name="railwayView"><b>Вокзал</b>\n<i>ga xe lửa</i>\n<u>га се луа</u></string>
+    <string name="railwayView2"><b>Отправление</b>\n<i>khởi hành</i>\n<u>кхои хайн</u></string>
+    <string name="railwayView3"><b>Прибытие</b>\n<i>đến</i>\n<u>дэн</u></string>
+    <string name="railwayView4"><b>Поезд</b>\n<i>xe lửa</i>\n<u>се луа</u></string>
+    <string name="railwayView5"><b>Сколько стоит билет?</b>\n<i>vé giá bao nhiêu?</i>\n<u>ве за бао нхиеу?</u></string>
+    <string name="railwayView6"><b>Паспорт</b>\n<i>hộ chiếu</i>\n<u>хо циеу</u></string>
 </resources>

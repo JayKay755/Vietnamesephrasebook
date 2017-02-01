@@ -6,10 +6,8 @@
     android:id="@+id/restaurant"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jaydevelopment.popkovanton.vietnamesephrasebook.RestaurantActivity">
 
@@ -18,653 +16,603 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/adView12">
 
-        <LinearLayout
-            android:id="@+id/linear"
+        <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:paddingRight="@dimen/activity_horizontal_margin">
 
 
             <TextView
                 android:id="@+id/restaurantView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="0"
                 android:text="@string/restaurantView"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="0"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="1"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="2"
                 android:text="@string/restaurantView2"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="2"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator2"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="3"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="4"
                 android:text="@string/restaurantView3"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="4"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator3"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="5"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="6"
                 android:text="@string/restaurantView4"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="6"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator4"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="7"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="8"
                 android:text="@string/restaurantView5"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="8"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator5"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="9"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView6"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="10"
                 android:text="@string/restaurantView6"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="10"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator6"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="11"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView7"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="12"
                 android:text="@string/restaurantView7"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="12"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator7"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="13"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView8"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="14"
                 android:text="@string/restaurantView8"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="14"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator8"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="15"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView9"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="16"
                 android:text="@string/restaurantView9"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="16"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator9"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="17"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="18"
                 android:text="@string/restaurantView10"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="18"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator10"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="19"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="20"
                 android:text="@string/restaurantView11"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="20"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator11"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="21"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
-                android:id="@+id/grestaurantView12"
-                android:layout_width="match_parent"
+                android:id="@+id/restaurantView12"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="22"
                 android:text="@string/restaurantView12"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="22"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator12"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="23"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView13"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="24"
                 android:text="@string/restaurantView13"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="24"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator13"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="25"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView14"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="26"
                 android:text="@string/restaurantView14"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="26"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator14"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="27"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView15"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="28"
                 android:text="@string/restaurantView15"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="28"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator15"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="29"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView16"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="30"
                 android:text="@string/restaurantView16"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="30"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator16"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="31"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView17"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="32"
                 android:text="@string/restaurantView17"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="32"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator17"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="33"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView18"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="34"
                 android:text="@string/restaurantView18"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="34"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator18"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="35"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView19"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="36"
                 android:text="@string/restaurantView19"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/restaurantButton19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="36"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
 
             <View
                 android:id="@+id/restaurantSeparator19"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.2dp"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_row="37"
                 android:background="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/restaurantView20"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_column="0"
+                android:layout_marginBottom="5dp"
+                android:layout_row="38"
                 android:text="@string/restaurantView20"
-                android:textSize="19sp"/>
+                android:textSize="19sp" />
 
-            <View
-                android:id="@+id/restaurantSeparator20"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView21"
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/restaurantButton20"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView21"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator21"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView22"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator22"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView23"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView23"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator23"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView24"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView24"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator24"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView25"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView25"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator25"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView26"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView26"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator26"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView27"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView27"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator27"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView28"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView28"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator28"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView29"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView29"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator29"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView30"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView30"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator30"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView31"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView31"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator31"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView32"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView32"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator32"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView33"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView33"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator33"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView34"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView34"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator34"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView35"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView35"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator35"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView36"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView36"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator36"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView37"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator37"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView38"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView38"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator38"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView39"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView39"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator39"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/restaurantView40"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/restaurantView40"
-                android:textSize="19sp"/>
-
-            <View
-                android:id="@+id/restaurantSeparator40"
-                android:layout_width="fill_parent"
-                android:layout_height="0.2dp"
-                android:background="@android:color/darker_gray"
-                android:visibility="visible" />
-        </LinearLayout>
+                android:layout_column="1"
+                android:layout_gravity="center|end"
+                android:layout_row="38"
+                android:onClick="onClick"
+                ads:srcCompat="@mipmap/ic_volume_mute_black_24dp"/>
+        </GridLayout>
     </ScrollView>
 
     <com.google.android.gms.ads.AdView
